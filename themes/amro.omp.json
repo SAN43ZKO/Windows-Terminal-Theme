@@ -1,20 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "enable_cursor_positioning": true,
   "blocks": [
-    {
-      "type": "rprompt",
-      "segments": [
-        {
-          "foreground": "#007ACC",
-          "options": {
-            "time_format": "15:04:05"
-          },
-          "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "type": "time"
-        }
-      ]
-    },
     {
       "alignment": "left",
       "segments": [
@@ -46,6 +33,21 @@
         }
       ],
       "type": "prompt"
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "#007ACC",
+          "options": {
+            "time_format": "15:04:05"
+          },
+          "style": "plain",
+          "template": " {{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        }
+      ]
     },
     {
       "alignment": "left",
