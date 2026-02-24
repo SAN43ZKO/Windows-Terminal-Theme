@@ -65,7 +65,7 @@
           "options": {
             "fetch_upstream_icon": true
           },
-          "style": "powerline",
+          "style": "plain",
           "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
