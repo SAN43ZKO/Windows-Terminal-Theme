@@ -64,10 +64,11 @@
           "powerline_symbol": "\ue0b0",
           "options": {
             "display_mode": "files",
+            "display_verison": false,
             "fetch_virtual_env": false
           },
           "style": "plain",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
