@@ -64,7 +64,7 @@
           "powerline_symbol": "\ue0b0",
           "options": {
             "display_mode": "files",
-            "display_verison": false,
+            "fetch_version": false,
             "fetch_virtual_env": false
           },
           "style": "plain",
