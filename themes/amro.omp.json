@@ -63,10 +63,11 @@
           "foreground": "#A317AD",
           "powerline_symbol": "\ue0b0",
           "options": {
-            "fetch_upstream_icon": true
+            "display_mode": "files",
+            "fetch_virtual_env": false
           },
           "style": "plain",
-          "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
