@@ -67,7 +67,7 @@
             "fetch_virtual_env": false
           },
           "style": "plain",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ end }} ",
           "type": "python"
         },
         {
